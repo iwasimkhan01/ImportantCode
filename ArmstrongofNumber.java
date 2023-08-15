@@ -12,7 +12,7 @@ public class ArmstrongofNumber {
         int arm = 0, rem = 0, temp = 0, num = 0;
         int len;// raised = 0;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Number= ");
+        System.out.print("Enter the Number= ");
         num = sc.nextInt();
         temp = num;
         len = String.valueOf(num).length();
